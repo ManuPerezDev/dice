@@ -1,21 +1,9 @@
 const button1 = document.getElementById("button-1");
-const button2 = document.getElementById("button-2");
-const button3 = document.getElementById("button-3");
 
 const results = [];
 
 button1.onclick = function () {
   const result = document.getElementById("result-1");
-  result.innerHTML = diceRandomNumber();
-};
-
-button2.onclick = function () {
-  const result = document.getElementById("result-2");
-  result.innerHTML = diceRandomNumber();
-};
-
-button3.onclick = function () {
-  const result = document.getElementById("result-3");
   result.innerHTML = diceRandomNumber();
 };
 
@@ -35,4 +23,4 @@ const printResults = function() {
 
     li.innerHTML += item;
   });
-}
+};

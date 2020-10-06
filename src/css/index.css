@@ -1,7 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     display: flex;
-    justify-content: space-between;
-    width: 400px;
+    justify-content: center;
+    width: 200px;
     border: solid 1px;
     margin: auto;
     border-radius: 5px;
